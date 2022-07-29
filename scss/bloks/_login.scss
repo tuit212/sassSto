@@ -1,0 +1,94 @@
+body{
+    background: rgb(185,233,233);
+    background: linear-gradient(8deg, rgba(232,220,229,1) 7%, rgba(232,220,229,1) 8%);
+}
+.wrapper{
+    margin: 100px auto;
+    width: 500px;
+    height: 500px;
+    background: rgb(226,252,244);
+    background: linear-gradient(140deg, rgba(226,252,244,1) 50%, rgba(252,230,249,1) 50%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #E8DCE5;
+}
+.wrapper-title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #444444;
+    font-size: 45px;
+}
+.wrapper-text{
+    color: #4a5050;
+    text-align: center;
+    font-size: 18px;
+}
+.input-text{
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: #FDFDFE;
+}
+input::placeholder{
+    color: #B5B5B6;
+}
+.txt_field{
+    display: flex;
+    margin: 10px auto;
+    padding: 13px 5px;
+    width: 270px;
+    background-color: #FDFDFE;
+}
+.txt_field label{
+    margin-left: 5px;
+}
+.txt_field input{
+    margin-left: 10px;
+}
+.txt_field:first-child{
+    margin-top: 50px;
+}
+.submit{
+    margin: 10px auto;
+    padding: 13px 5px;
+    width: 270px;
+    display: block;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    margin-top: 25px;
+    text-align: center;
+}
+.submit a{
+    font-size: 16px;
+    background-color: #fff;
+    color: #5E5F6C;
+    text-decoration: none;
+}
+.enter{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+.pass{
+    width: 110px;
+    text-align: center;
+    font-size: 18px;
+}
+.pass a{
+    color: #5E5F6C;
+    text-decoration: none;
+}
+.sign_up{
+    padding: 8px;
+    width: 140px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #B9F1E6;
+}
+.sign_up a{
+    text-decoration: none;
+    color: #5E5F6C;
+}
